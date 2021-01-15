@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost/services">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:GetDeliveryRequest>
+            <gs:weight>3.0</gs:weight>
+            <gs:distance>70.0</gs:distance>
+        </gs:GetDeliveryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
